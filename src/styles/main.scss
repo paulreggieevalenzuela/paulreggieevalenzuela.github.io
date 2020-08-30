@@ -1,0 +1,130 @@
+// Common styles
+@import './common/reset';
+@import './common/variables';
+@import './common/media-queries';
+@import './common/typography';
+
+// Components styles
+@import './container';
+@import './navigation';
+@import './hero';
+@import './parallax';
+@import './technical-skills';
+@import './projects';
+@import './footer';
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', 'arial', 'helvetica', sans-serif;
+    // font-family: 'Crystal Sky';
+    background: $page-color;
+    // background: #fff;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.portfolio {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.logo-container {
+    left: 50%;
+    top: 150px;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+.title-container {
+    border-radius: 50%;
+    border: 3px solid #46ffe2;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top-left-radius: 0px;
+}
+
+.fa {
+    color: $color-white;
+}
+
+.everyday {
+    // background: -webkit-linear-gradient(white, #38495a);
+    background: -webkit-linear-gradient(#000, #46ffe2);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 120px;
+    font-weight: 500;
+    
+    &:first-child {
+        margin-right: 40px;
+    }
+
+    &:last-child {
+        margin-left: 40px;
+    }
+    
+    span {
+        font-size: 80px;
+    }
+}
+
+.name {
+    font-family: 'Montserrat';
+    color: $color-white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+
+    p {
+        margin-right: 10px;
+    }
+    
+    span {
+        font-size: 40px;
+        font-family: 'Crystal Sky';
+    }
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: $color-white;
+
+    span {
+        color: #46ffe2;
+        margin-right: 5px;
+    }
+
+    p {
+        background: linear-gradient(to right, #000 40%, #46ffe2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: -webkit-linear-gradient(white, #46ffe2);
+        font-size: 20px;
+        font-family: 'Montserrat';
+    }
+}
+
+.sub-title {
+    margin-top: 20px;
+}
+
+// .image-container {
+
+//     img {
+//         width: 50px;
+//     }
+// }

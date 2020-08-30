@@ -1,0 +1,87 @@
+@function multiple-box-shadow ($n) {
+    $value: '#{random(2000)}px #{random(2000)}px #484848';
+
+    @for $i from 2 through $n {
+        $value: '#{$value} , #{random(2000)}px #{random(2000)}px #484848';
+    }
+
+    @return unquote($value);
+}
+
+@keyframes ashes {
+    0% {
+        transform: translateY(-2000px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+$shadows-small:  multiple-box-shadow(700);
+$shadows-medium: multiple-box-shadow(200);
+$shadows-big:    multiple-box-shadow(100);
+
+.ashes {
+    border-radius: 50%;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+    box-shadow: $shadows-small;
+    animation: ashes 50s linear infinite;
+    
+    &:after {
+        content: "";
+        position: absolute;
+        top: 2000px;
+        width: 1px;
+        height: 1px;
+        background: transparent;
+        box-shadow: $shadows-small;
+    }
+}
+
+.ashes2 {
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    box-shadow: $shadows-medium;
+    animation: ashes 100s linear infinite;
+    
+    &:after {
+        content: "";
+        position: absolute;
+        top: 2000px;
+        width: 2px;
+        height: 2px;
+        background: transparent;
+        box-shadow: $shadows-medium;
+    }
+}
+
+.ashes3 {
+    border-radius: 50%;
+    width: 3px;
+    height: 3px;
+    background: transparent;
+    box-shadow: $shadows-big;
+    animation: ashes 150s linear infinite;
+    
+    &:after {
+        content: "";
+        position: absolute;
+        top: 2000px;
+        width: 3px;
+        height: 3px;
+        background: transparent;
+        box-shadow: $shadows-big;
+    }
+}
+
+.parallax {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

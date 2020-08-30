@@ -1,0 +1,20 @@
+.container {
+    width: 1148px;
+    padding: 0 3rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+
+    @include sm-view {
+        padding: 0 1.5rem;
+    }
+
+    @include md-view {
+        padding: 0 3rem;
+    }
+
+    @include lg-view {
+        width: 100%;
+        padding: 0 3rem;
+    }
+}

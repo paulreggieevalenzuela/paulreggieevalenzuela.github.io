@@ -1,0 +1,17 @@
+@mixin sm-view {
+    @media (max-width: #{$sm}) {
+        @content;
+    }
+}
+
+@mixin md-view {
+    @media (max-width: #{$md}) {
+        @content;
+    }
+}
+
+@mixin lg-view {
+    @media (max-width: #{$lg}) {
+        @content;
+    }
+}

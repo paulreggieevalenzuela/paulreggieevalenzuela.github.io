@@ -1,0 +1,66 @@
+.hero {
+    margin: 1rem 0 4rem;
+
+    @include sm-view {
+        margin: 20px 0;
+    }
+}
+
+.hero__title {
+    animation: fromTop 1.5s;
+    color: #0ed7c3;
+    font-size: 8vw;
+    font-weight: 800;
+    margin: 20px 0;
+
+    &:nth-child(2) {
+        margin-bottom: 40px;
+        font-size: 4.5vw;
+    }
+
+    @include sm-view {
+        font-size: 9vw;
+        margin: 5px 0;
+
+        &:nth-child(2) {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.hero__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    .paragraph {
+        margin-bottom: 15px;
+    }
+
+    @include sm-view {
+        flex-direction: column;
+    }
+
+    @include md-view {
+        flex-direction: column;
+    }
+}
+
+.hero__inner-content {
+    flex: 1;
+}
+
+@keyframes fromTop {
+    0% {
+        transform: translateY(-50px);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    70% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

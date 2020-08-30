@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/main.scss';
 
-function App() {
+// Local components
+import Container from 'components/container';
+import Footer from 'components/footer';
+import Parallax from 'components/parallax';
+import Navigation from 'components/navigation';
+import Hero from 'components/hero';
+import TechnicalSkills from 'components/technicalSkills';
+import FeaturedProjects from 'components/projects';
+import EverydayMunchies from 'components/EverydayMunchies';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="portfolio">
+      <Parallax />
+      {/* <EverydayMunchies /> */}
+      <Container>
+        <Navigation />
+        <Hero />
+        <TechnicalSkills />
+        <FeaturedProjects />
+      </Container>
+      <Footer />
+    </main>
   );
 }
 
