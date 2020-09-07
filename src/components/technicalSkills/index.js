@@ -1,11 +1,20 @@
 import React from 'react';
 
-import HTML from 'assets/images/icons8-html-5-50.png';
-import CSS from 'assets/images/icons8-css3-50.png';
-import JS from 'assets/images/icons8-javascript-50.png';
-import NODEJS from 'assets/images/icons8-nodejs-50.png';
-import REACT from 'assets/images/icons8-react-50.png';
-import SASS from 'assets/images/icons8-sass-50.png';
+// import HTML from 'assets/images/icons8-html-5-50.png';
+// import CSS from 'assets/images/icons8-css3-50.png';
+// import JS from 'assets/images/icons8-javascript-50.png';
+// import NODEJS from 'assets/images/icons8-nodejs-50.png';
+// import REACT from 'assets/images/icons8-react-50.png';
+// import SASS from 'assets/images/icons8-sass-50.png';
+
+const REACT = 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png';
+const JS = 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png';
+const HTML = 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png';
+const CSS = 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png';
+const NODEJS = 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png';
+const SASS = 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png';
+const ANGULAR = 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png';
+const VUE = 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png';
 
 const TechnicalSkills = () => {
     return (

@@ -5,6 +5,9 @@ import MA1 from 'assets/images/ma-1.png';
 import RETROCED from 'assets/images/retroced.png';
 import ICARE from 'assets/images/icare.png';
 
+// Utils
+import { convertImageToBase64 } from 'utils'; 
+
 const FeaturedProjects = () => {
     const [project, setProject] = React.useState({
         image: MA1,
@@ -35,7 +38,14 @@ const FeaturedProjects = () => {
             <div className="projects__wrapper">
                 <ul className="projects__list">
                     {projectList.map((d, i) => 
-                        <li key={i} className="project__item" onClick={() => setProject(d)}>
+                        <li key={i} className="project__item" onClick={() =>
+                            convertImageToBase64(d.image, (image) =>
+                                setProject({
+                                    ...d,
+                                    image,
+                                })
+                            )
+                        }>
                             <span className="project__num">.0{i + 1}</span>
                             <h3 className="project__title">{d.title}</h3>
                             <p className="project__description">{d.description}</p>

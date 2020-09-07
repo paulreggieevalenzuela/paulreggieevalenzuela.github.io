@@ -7,6 +7,7 @@
 
     @include md-view {
         flex-direction: column;
+        margin: 0px;
     }
 
     .title {
@@ -15,8 +16,7 @@
     }
 
     img {
-        width: 100px;
-        filter: grayscale(1);
+        width: 28%;
         position: relative;
 
         &:after {
@@ -41,11 +41,3 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
-// .technical {
-
-//     &__decsription,
-//     &__box {
-//         flex: 1;
-//     }
-// }
