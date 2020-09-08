@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/paulreggieevalenzuela.github.io/static/css/main.fd83e8f4.chunk.css",
-    "main.js": "/paulreggieevalenzuela.github.io/static/js/main.e20180eb.chunk.js",
-    "main.js.map": "/paulreggieevalenzuela.github.io/static/js/main.e20180eb.chunk.js.map",
+    "main.css": "/paulreggieevalenzuela.github.io/static/css/main.e5bd75f3.chunk.css",
+    "main.js": "/paulreggieevalenzuela.github.io/static/js/main.ac065b0c.chunk.js",
+    "main.js.map": "/paulreggieevalenzuela.github.io/static/js/main.ac065b0c.chunk.js.map",
     "runtime-main.js": "/paulreggieevalenzuela.github.io/static/js/runtime-main.3b44ea1c.js",
     "runtime-main.js.map": "/paulreggieevalenzuela.github.io/static/js/runtime-main.3b44ea1c.js.map",
-    "static/js/2.a54e5966.chunk.js": "/paulreggieevalenzuela.github.io/static/js/2.a54e5966.chunk.js",
-    "static/js/2.a54e5966.chunk.js.map": "/paulreggieevalenzuela.github.io/static/js/2.a54e5966.chunk.js.map",
+    "static/js/2.426fdaa1.chunk.js": "/paulreggieevalenzuela.github.io/static/js/2.426fdaa1.chunk.js",
+    "static/js/2.426fdaa1.chunk.js.map": "/paulreggieevalenzuela.github.io/static/js/2.426fdaa1.chunk.js.map",
     "index.html": "/paulreggieevalenzuela.github.io/index.html",
-    "precache-manifest.2865b62079bdba98995ec759d18018dc.js": "/paulreggieevalenzuela.github.io/precache-manifest.2865b62079bdba98995ec759d18018dc.js",
+    "precache-manifest.877015700ede160e78bb2144f466c480.js": "/paulreggieevalenzuela.github.io/precache-manifest.877015700ede160e78bb2144f466c480.js",
     "service-worker.js": "/paulreggieevalenzuela.github.io/service-worker.js",
-    "static/css/main.fd83e8f4.chunk.css.map": "/paulreggieevalenzuela.github.io/static/css/main.fd83e8f4.chunk.css.map",
-    "static/js/2.a54e5966.chunk.js.LICENSE.txt": "/paulreggieevalenzuela.github.io/static/js/2.a54e5966.chunk.js.LICENSE.txt",
+    "static/css/main.e5bd75f3.chunk.css.map": "/paulreggieevalenzuela.github.io/static/css/main.e5bd75f3.chunk.css.map",
+    "static/js/2.426fdaa1.chunk.js.LICENSE.txt": "/paulreggieevalenzuela.github.io/static/js/2.426fdaa1.chunk.js.LICENSE.txt",
     "static/media/icare.png": "/paulreggieevalenzuela.github.io/static/media/icare.3c8b223b.png",
     "static/media/ma-1.png": "/paulreggieevalenzuela.github.io/static/media/ma-1.f3e8502f.png",
     "static/media/retroced.png": "/paulreggieevalenzuela.github.io/static/media/retroced.d03cd9b4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3b44ea1c.js",
-    "static/js/2.a54e5966.chunk.js",
-    "static/css/main.fd83e8f4.chunk.css",
-    "static/js/main.e20180eb.chunk.js"
+    "static/js/2.426fdaa1.chunk.js",
+    "static/css/main.e5bd75f3.chunk.css",
+    "static/js/main.ac065b0c.chunk.js"
   ]
 }
