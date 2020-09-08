@@ -3,10 +3,6 @@
     width: 100%;
     padding: 5rem 0 6rem;
 
-    @include md-view {
-        margin-bottom: 80px;
-    }
-
     .title {
         color: $main-color;
         margin-bottom: 20px;

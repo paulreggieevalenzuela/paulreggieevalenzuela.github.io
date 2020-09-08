@@ -8,6 +8,7 @@
     @include md-view {
         flex-direction: column;
         margin: 0px;
+        padding-top: 2rem;
     }
 
     .title {
@@ -16,13 +17,18 @@
     }
 
     img {
-        width: 28%;
+        margin-bottom: 7px;
         position: relative;
+        width: 28%;
 
         &:after {
             background: #000;
             height: 100%;
             width: 100%;
+        }
+
+        @include md-view {
+            width: 33%;
         }
     }
 
