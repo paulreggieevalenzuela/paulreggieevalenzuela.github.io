@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/paulreggieevalenzuela.github.io/static/css/main.b419d5a0.chunk.css",
+    "main.css": "/paulreggieevalenzuela.github.io/static/css/main.a1a3796d.chunk.css",
     "main.js": "/paulreggieevalenzuela.github.io/static/js/main.0790dc06.chunk.js",
     "main.js.map": "/paulreggieevalenzuela.github.io/static/js/main.0790dc06.chunk.js.map",
     "runtime-main.js": "/paulreggieevalenzuela.github.io/static/js/runtime-main.3b44ea1c.js",
@@ -8,9 +8,9 @@
     "static/js/2.426fdaa1.chunk.js": "/paulreggieevalenzuela.github.io/static/js/2.426fdaa1.chunk.js",
     "static/js/2.426fdaa1.chunk.js.map": "/paulreggieevalenzuela.github.io/static/js/2.426fdaa1.chunk.js.map",
     "index.html": "/paulreggieevalenzuela.github.io/index.html",
-    "precache-manifest.4ca0bff2774193a373ea13698598833a.js": "/paulreggieevalenzuela.github.io/precache-manifest.4ca0bff2774193a373ea13698598833a.js",
+    "precache-manifest.217f22329d6acba7c9abbca8b1f8958c.js": "/paulreggieevalenzuela.github.io/precache-manifest.217f22329d6acba7c9abbca8b1f8958c.js",
     "service-worker.js": "/paulreggieevalenzuela.github.io/service-worker.js",
-    "static/css/main.b419d5a0.chunk.css.map": "/paulreggieevalenzuela.github.io/static/css/main.b419d5a0.chunk.css.map",
+    "static/css/main.a1a3796d.chunk.css.map": "/paulreggieevalenzuela.github.io/static/css/main.a1a3796d.chunk.css.map",
     "static/js/2.426fdaa1.chunk.js.LICENSE.txt": "/paulreggieevalenzuela.github.io/static/js/2.426fdaa1.chunk.js.LICENSE.txt",
     "static/media/icare.png": "/paulreggieevalenzuela.github.io/static/media/icare.3c8b223b.png",
     "static/media/ma-1.png": "/paulreggieevalenzuela.github.io/static/media/ma-1.f3e8502f.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.3b44ea1c.js",
     "static/js/2.426fdaa1.chunk.js",
-    "static/css/main.b419d5a0.chunk.css",
+    "static/css/main.a1a3796d.chunk.css",
     "static/js/main.0790dc06.chunk.js"
   ]
 }
