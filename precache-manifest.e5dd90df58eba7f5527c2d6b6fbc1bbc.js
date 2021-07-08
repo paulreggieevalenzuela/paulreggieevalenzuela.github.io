@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "debc6552f00d9277bef463227dda712f",
+    "revision": "f4bb8cdbcaf424faad096a7c39a2ac6c",
     "url": "/paulreggieevalenzuela.github.io/index.html"
   },
   {
-    "revision": "d5f47e660cb67f5a2067",
-    "url": "/paulreggieevalenzuela.github.io/static/css/main.03cb42d4.chunk.css"
+    "revision": "3fbb2e1edf4ca8294b36",
+    "url": "/paulreggieevalenzuela.github.io/static/css/main.b7d25b14.chunk.css"
   },
   {
     "revision": "7bd96ecc3089bc01d08f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/paulreggieevalenzuela.github.io/static/js/2.426fdaa1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d5f47e660cb67f5a2067",
-    "url": "/paulreggieevalenzuela.github.io/static/js/main.8f2e7541.chunk.js"
+    "revision": "3fbb2e1edf4ca8294b36",
+    "url": "/paulreggieevalenzuela.github.io/static/js/main.ab05833e.chunk.js"
   },
   {
     "revision": "62891471e8d9788ec4ba",
