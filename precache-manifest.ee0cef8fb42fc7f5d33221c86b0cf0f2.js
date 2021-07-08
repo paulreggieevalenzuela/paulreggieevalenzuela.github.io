@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9faa1044269af63946bab12fb0a5771",
+    "revision": "5750f688f02a275f256296a997be60ca",
     "url": "/paulreggieevalenzuela.github.io/index.html"
   },
   {
-    "revision": "665eca37a7c3698cfd13",
-    "url": "/paulreggieevalenzuela.github.io/static/css/main.2f724383.chunk.css"
+    "revision": "2aa52609e4ce3e59da96",
+    "url": "/paulreggieevalenzuela.github.io/static/css/main.0ea24c97.chunk.css"
   },
   {
-    "revision": "ac84a86e5a10d1425ee2",
-    "url": "/paulreggieevalenzuela.github.io/static/js/2.1d0c8d30.chunk.js"
+    "revision": "7bd96ecc3089bc01d08f",
+    "url": "/paulreggieevalenzuela.github.io/static/js/2.426fdaa1.chunk.js"
   },
   {
-    "revision": "4249ae0795da8b67f46aa0ae5f8f51e6",
-    "url": "/paulreggieevalenzuela.github.io/static/js/2.1d0c8d30.chunk.js.LICENSE.txt"
+    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
+    "url": "/paulreggieevalenzuela.github.io/static/js/2.426fdaa1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "665eca37a7c3698cfd13",
-    "url": "/paulreggieevalenzuela.github.io/static/js/main.5e5c5cf7.chunk.js"
+    "revision": "2aa52609e4ce3e59da96",
+    "url": "/paulreggieevalenzuela.github.io/static/js/main.0790dc06.chunk.js"
   },
   {
     "revision": "62891471e8d9788ec4ba",
